@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>PIKCHR Test</title>
+<style>
+  .hidden {
+     position: absolute !important;
+     opacity: 0 !important;
+     pointer-events: none !important;
+     display: none !important;
+  }
+</style>
+<script>
+  function toggleHidden(id){
+    for(var c of document.getElementById(id).children){
+      c.classList.toggle('hidden');
+    }
+  }
+</script>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>File structure-diagram.pikchr</h1>
+<div id="svg-1" onclick="toggleHidden('svg-1')">
+<div style='border:3px solid lightgray;max-width:2025px;'>
+<svg xmlns='http://www.w3.org/2000/svg' style='font-size:initial;' class="pikchr" viewBox="0 0 2025.99 76.32" data-pikchr-date="20250512153813">
+<path d="M5.9328,74.16L113.933,74.16L113.933,2.16L5.9328,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="59.9328" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Frontend (UI)</text>
+<path d="M113.933,74.16L221.933,74.16L221.933,2.16L113.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="167.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Menu System</text>
+<path d="M221.933,74.16L329.933,74.16L329.933,2.16L221.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="275.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Display User Info</text>
+<path d="M329.933,74.16L437.933,74.16L437.933,2.16L329.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="383.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Input Authentication Details</text>
+<path d="M437.933,74.16L545.933,74.16L545.933,2.16L437.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="491.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+<path d="M545.933,74.16L653.933,74.16L653.933,2.16L545.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="599.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">User Dataclass</text>
+<path d="M653.933,74.16L761.933,74.16L761.933,2.16L653.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="707.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Hashing &amp; Salting</text>
+<path d="M761.933,74.16L869.933,74.16L869.933,2.16L761.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="815.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Compare Passwords</text>
+<path d="M869.933,74.16L977.933,74.16L977.933,2.16L869.933,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="923.933" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Authentication Flow</text>
+<text x="1102.98" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Input Authentication Details</text>
+<text x="1102.98" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Authentication Flow</text>
+<text x="1353.08" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Menu System</text>
+<text x="1353.08" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Input Authentication Details</text>
+<text x="1569.25" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Compare Passwords</text>
+<text x="1569.25" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Hashing &amp; Salting</text>
+<text x="1751.5" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Authentication Flow</text>
+<text x="1751.5" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Compare Passwords</text>
+<text x="1933.23" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Authentication Flow</text>
+<text x="1933.23" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">User Dataclass</text>
+</svg>
+</div>
+<pre class='hidden'>box "Frontend (UI)"
+  box "Menu System"
+  box "Display User Info"
+  box "Input Authentication Details"
+
+box "Backend"
+  box "User Dataclass"
+  box "Hashing &amp; Salting"
+  box "Compare Passwords"
+  box "Authentication Flow"
+  
+"Input Authentication Details" -&gt; "Authentication Flow"
+"Menu System" -&gt; "Input Authentication Details"
+"Compare Passwords" -&gt; "Hashing &amp; Salting"
+"Authentication Flow" -&gt; "Compare Passwords"
+"Authentication Flow" -&gt; "User Dataclass"
+</pre>
+</div>
+</body></html>

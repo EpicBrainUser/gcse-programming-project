@@ -1,0 +1,41 @@
+<svg xmlns='http://www.w3.org/2000/svg' style='font-size:initial;' class="pikchr" viewBox="0 0 2536.19 76.32" data-pikchr-date="20250512153813">
+<path d="M2.16,74.16L110.16,74.16L110.16,2.16L2.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="56.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Main Project</text>
+<path d="M110.16,74.16L218.16,74.16L218.16,2.16L110.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="164.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Frontend (UI)</text>
+<path d="M218.16,74.16L326.16,74.16L326.16,2.16L218.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="272.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Menu System</text>
+<path d="M326.16,74.16L434.16,74.16L434.16,2.16L326.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="380.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Display User Info</text>
+<path d="M434.16,74.16L542.16,74.16L542.16,2.16L434.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="488.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Input Authentication Details</text>
+<path d="M542.16,74.16L650.16,74.16L650.16,2.16L542.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="596.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+<path d="M650.16,74.16L758.16,74.16L758.16,2.16L650.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="704.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">User Dataclass</text>
+<path d="M758.16,74.16L866.16,74.16L866.16,2.16L758.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="812.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Hashing &amp; Salting</text>
+<path d="M866.16,74.16L974.16,74.16L974.16,2.16L866.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="920.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Compare Passwords</text>
+<path d="M974.16,74.16L1082.16,74.16L1082.16,2.16L974.16,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1028.16" y="38.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Authentication Flow</text>
+<text x="1145.69" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Frontend (UI)</text>
+<text x="1145.69" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Main Project</text>
+<text x="1268.84" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+<text x="1268.84" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Main Project</text>
+<text x="1391.99" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Menu System</text>
+<text x="1391.99" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Frontend (UI)</text>
+<text x="1534.32" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Display User Info</text>
+<text x="1534.32" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Frontend (UI)</text>
+<text x="1738.17" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Input Authentication Details</text>
+<text x="1738.17" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Frontend (UI)</text>
+<text x="1932.39" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">User Dataclass</text>
+<text x="1932.39" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+<text x="2086.07" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Hashing &amp; Salting</text>
+<text x="2086.07" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+<text x="2261.69" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Compare Passwords</text>
+<text x="2261.69" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+<text x="2443.42" y="28.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Authentication Flow</text>
+<text x="2443.42" y="48.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Backend</text>
+</svg>
+
