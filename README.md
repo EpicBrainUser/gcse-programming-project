@@ -23,7 +23,7 @@ The backend handles the database and the password/username lookups, and the fron
 
 ## Design
 I have not included a full flowchart because the program is quite large, however here's a part of the logic, in a more high-level overview rather than specific implementation, nevertheless showing the processes: 
-```
+```mermaid
 flowchart TD
     A([Start TUI]) --> B[/Display Menu: Sign In, Sign Up, Exit/]
     B --> C{Menu Option?}
