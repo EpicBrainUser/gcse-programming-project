@@ -52,9 +52,27 @@ flowchart TD
 The fully coded solution to this program is available [here](src/auth.py).
 ## Testing
 Proper testing would involve writing unit tests that would take up approximately 30% of the codebase, and live next to the code, but for this mini-project I just put a simple testing table:
-|Test number | Test description | Expected outcome | Actual outcome |
-| -----       | -------------- | ----------------- | ------------- |
-| 1. | 
+|Test number | Test kind | Test description | Expected outcome  | Actual outcome |
+| -----      | -------   | --------------   | ----------------- | -------------  |
+| 1.         | Normal    |  J/K navigation  | Menu cycles through options | Output as expected |
+| 2.         | Boundary  | Excessively long username (hundreds of characters)     | Username stays in box, and username is accepted in system  | Username text fills up screen overwriting previous characters, but username is nonetheless read and stored in the system just like any other username  |
+| 3.         | Invalid   |  (^C escape) | Graceful termination  | KeyboardInterrupt exception raised   |
+| 4.         | Erroneous | N/A                  |                |              |
+
+
 
 ## Evaluation
+
+### The current project
+Overall the current project is a success for what it needed to do, because this successfully creates user authentication, properly salting and hashing the password, and the project is written using modern python OOP.  
+Nonetheless there are some minor bugs, as discovered during testing, for example the UI breaking when a user enters too much data into a field. This is quite challanging to fix due to the scope of this project because it could involve overhauling the entire frontend to use a more modern or feature-filled framework for terminal control.  
+As for terminal control, I did not handle system codes such as 'KeyboardInterrupt' which on one hand makes it simpler and makes error handling more focused on the errors that matter more to the program, and provides an intuitive user experience, however it has the downside of not writing the database to disk before an unclean termination. This means that if a user is added and control-c is hit, that user's data is lost.
+
+### Future steps
+If I was to take this project further I could:
+- Handle system exit codes in the error handling of the program
+- Add proper testing via unit tests, which would integrate testing directly into the project
+- Add an option for email sign up instead of username
+- Potentially email the user to tell them they signed up
+- Overhaul the frontend UI to fix bugs because the curses TUI UI is limiting 
 
