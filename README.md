@@ -49,7 +49,12 @@ flowchart TD
 ```
 
 This is a structure diagram showing all the identifier names for the project:
+<<<<<<< HEAD
 ![structure diagram](./Untitled Diagram.drawio.svg)
+=======
+
+![structure diagram](./structure-diagram.svg)
+>>>>>>> 7ca55e6 (add images)
 
 ## Implementation
 The fully coded solution to this program is available [here](src/auth.py).
