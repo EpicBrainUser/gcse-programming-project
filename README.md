@@ -48,6 +48,9 @@ flowchart TD
     P --> K
 ```
 
+This is a structure diagram showing all the identifier names for the project:
+![structure diagram](./Untitled Diagram.drawio.svg)
+
 ## Implementation
 The fully coded solution to this program is available [here](src/auth.py).
 ## Testing
@@ -60,6 +63,7 @@ Proper testing would involve writing unit tests that would take up approximately
 | 4.         | Erroneous | N/A                  |                |              |
 
 
+![Screenshot of text bug](./Screenshot_20260419_233035.png)
 
 ## Evaluation
 
